@@ -11,9 +11,11 @@ Example:
     
 """
 
+
+from magic_tower.base_widget import MessageController
 from tower_config import map1
-from magic_tower_2.base import Player, Tower, BattleMap
-from magic_tower_2.items import init_map
+from magic_tower.base_models import Player, Tower, BattleMap
+from magic_tower.items import init_map, message_center
 
 
 # 装配model层
@@ -29,3 +31,7 @@ for tower_map in all_map:
             battle_map.load(item)
 
 tower.load(player, 'up')
+message_controller = MessageController()
+message_center.add_subscriber(message_controller)
+
+status_map = {"p": 0}  # 2表示等待开启，1表示开启，0表示初始状态，-2表示等待关闭，-1表示关闭

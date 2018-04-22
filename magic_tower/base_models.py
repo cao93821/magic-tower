@@ -154,16 +154,4 @@ class Player:
                 self.image = self.images[2][i]
 
 
-class Controller:
 
-    def __init__(self):
-        self.route_map = {}
-
-    def key_press(self, key):
-        self.route_map[key]()
-
-    def load(self, key):
-        def decorator(f):
-            self.route_map[key] = f
-            return f
-        return decorator

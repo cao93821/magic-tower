@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-File Name: items
-Author: cl
-Create Date: 18/03/2018
-Change Date: 18/03/2018
-
-Description:
-
-Example:
-    
-"""
-
 import time
 import threading
 
@@ -19,18 +6,6 @@ from configure import *
 
 # 全局锁，在渲染时使用
 render_lock = threading.Lock()
-
-
-def init_map(map_dict):
-    walls = [Wall(*wall, item_number) for item_number, wall_set in map_dict['walls'].items() for wall in wall_set]
-    doors = [Door(*door, item_number) for item_number, door_set in map_dict['doors'].items() for door in door_set]
-    keys = [Key(*key, item_number) for item_number, key_set in map_dict['keys'].items() for key in key_set]
-    stairss = [Stairs(*stairs, item_number) for item_number, stairs_set in map_dict['stairss'].items() for stairs in stairs_set]
-    weapons = [Weapon(*weapon, item_number) for item_number, weapon_set in map_dict['weapons'].items() for weapon in weapon_set]
-    monsters = [Monster(*monster, item_number) for item_number, monster_set in map_dict['monsters'].items() for monster in monster_set]
-    drugs = [Drug(*drug, item_number) for item_number, drug_set in map_dict['drugs'].items() for drug in drug_set]
-    gems = [Gem(*gem, item_number) for item_number, gem_set in map_dict['gems'].items() for gem in gem_set]
-    return [walls, doors, keys, stairss, weapons, monsters, drugs, gems]
 
 
 class Item:
@@ -67,7 +42,7 @@ class Wall(Item):
             self.action()
             self.pop_item()
             return True
-        # self.controller.display('这是一堵墙')
+        self.controller.display('这是一堵墙')
         return False
 
     def action(self):
@@ -94,7 +69,7 @@ class Monster(Item):
             return False
         else:
             self.pop_item()
-            # self.controller.display('你击败了{}，损失{}生命'.format(self.name, player.life - left_life))
+            self.controller.display('你击败了{}，损失{}生命'.format(self.name, player.life - left_life))
             player.life = left_life
             return True
 
@@ -136,11 +111,11 @@ class Door(Item):
         elif self.name == '红门' and player.red_key > 0:
             player.red_key -= 1
         else:
-            # self.controller.display('你没有可以打开这扇门的钥匙')
+            self.controller.display('你没有可以打开这扇门的钥匙')
             return False
         self.action()
         self.pop_item()
-        # self.controller.display('你打开了一扇门')
+        self.controller.display('你打开了一扇门')
         return True
 
     def action(self):
@@ -160,7 +135,7 @@ class Drug(Item):
     def be_interacted(self, player):
         player.life += self.heal
         self.pop_item()
-        # self.controller.display('喝下了{}，回复{}生命值'.format(self.name, self.heal))
+        self.controller.display('喝下了{}，回复{}生命值'.format(self.name, self.heal))
         return True
 
 
@@ -184,7 +159,7 @@ class Gem(Item):
             player.speed += self.number
             param = '速度'
         self.pop_item()
-        # self.controller.display('捡到一块{}，{}提升{}点'.format(self.name, param, self.number))
+        self.controller.display('捡到一块{}，{}提升{}点'.format(self.name, param, self.number))
         return True
 
 
@@ -197,7 +172,7 @@ class Key(Item):
 
     def be_interacted(self, player):
         self.pop_item()
-        # self.controller.display('你捡到了一把{}'.format(self.name))
+        self.controller.display('你捡到了一把{}'.format(self.name))
         if self.name == '黄钥匙':
             player.yellow_key += 1
         elif self.name == '蓝钥匙':
@@ -216,7 +191,7 @@ class Stairs(Item):
 
     def be_interacted(self, player):
         self.action()
-        # self.controller.display('你来到了{}楼'.format(self.battle_map.tower.current_floor))
+        self.controller.display('你来到了{}楼'.format(self.battle_map.tower.current_floor))
         return False
 
     def action(self):
@@ -239,7 +214,5 @@ class Weapon(Item):
         player.attack += self.attack
         player.weapon_image = self.image
         self.pop_item()
-        # self.controller.display('你得到了一把宝剑，攻击力提升{}'.format(self.attack))
+        self.controller.display('你得到了一把宝剑，攻击力提升{}'.format(self.attack))
         return True
-
-

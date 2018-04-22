@@ -11,8 +11,8 @@ Example:
     
 """
 
-from run2 import controller
-from magic_tower_2.models import *
+from run import controller
+from magic_tower.models import *
 
 
 @controller.load("up")
@@ -33,3 +33,11 @@ def move_left():
 @controller.load("right")
 def move_right():
     tower.player.move_right()
+
+
+@controller.load("p")
+def display_hand_book():
+    if status_map["p"] > 0:
+        status_map["p"] = -2
+    else:
+        status_map["p"] = 2

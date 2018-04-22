@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-File Name: utils
+File Name: util
 Author: cl
-Create Date: 25/01/2018
-Change Date: 25/01/2018
+Create Date: 18/03/2018
+Change Date: 18/03/2018
 
-Description: game工具箱
+Description:
 
 Example:
     
@@ -44,5 +44,6 @@ def is_in_rect(button_rect, pos):
     :param pos:
     :return:
     """
-    return button_rect[0] + button_rect[2] > pos[0] > button_rect[0] and button_rect[1] + button_rect[3] > pos[1] > button_rect[1]
+    return button_rect[0] + button_rect[2] > pos[0] > button_rect[0] \
+           and button_rect[1] + button_rect[3] > pos[1] > button_rect[1]
 

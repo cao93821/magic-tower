@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-File Name: modules
+File Name: base
 Author: cl
 Create Date: 18/03/2018
 Change Date: 18/03/2018
@@ -13,8 +13,27 @@ Example:
 
 import pygame
 
-from magic_tower_2.util import is_in_rect
+from magic_tower.util import is_in_rect
 from configure import white, gray, font_title
+
+
+class BaseView:
+
+    def __init__(self, view):
+        self.view = view
+        self.controller = None
+
+    def load_controller(self, controller):
+        self.controller = controller
+
+    def key_press(self, key):
+        self.controller.key_press(key)
+
+    def click(self, pos):
+        self.view.click(pos)
+
+    def draw(self):
+        self.view.render()
 
 
 class View:
@@ -41,14 +60,17 @@ class View:
         self.render_func = None
 
     def locate(self, x, y, view):
-        if self.surface is not None:
-            print('已经有了')
         self.x = x
         self.y = y
         self.upper_view = view
         self.rect = (x, y, self.width, self.height)
         self.surface = view.surface.subsurface(self.rect)
-        view.module_list.append(self)
+        self.upper_view.module_list.append(self)
+
+    def remove(self):
+        if self.upper_view is None:
+            return
+        self.upper_view.module_list.remove(self)
 
     def fill(self, color=white):
         self.surface.fill(color)
