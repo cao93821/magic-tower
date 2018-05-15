@@ -13,25 +13,23 @@ Example:
 
 
 from magic_tower.base_widget import MessageController
-from tower_config import map1
-from magic_tower.base_models import Player, Tower, BattleMap
+from tower_config import map1, map2
+from magic_tower.base_frame import Player, BattleMapSet, BattleMap
 from magic_tower.items import init_map, message_center
 
 
 # 装配model层
 player = Player()
-all_map = [init_map(tower_map) for tower_map in (map1,)]
-tower = Tower()
+battle_map_set = BattleMapSet()
 
-for tower_map in all_map:
-    battle_map = BattleMap()
-    tower.load_map(battle_map)
-    for items in tower_map:
-        for item in items:
-            battle_map.load(item)
+for tower_map in (map1, map2):
+    battle_map = BattleMap("初始之地")
+    battle_map_set.load_map(battle_map)
+    battle_map.read_item_config(tower_map, init_map)
 
-tower.load(player, 'up')
+battle_map_set.load(player)
 message_controller = MessageController()
 message_center.add_subscriber(message_controller)
 
+# 状态表
 status_map = {"p": 0}  # 2表示等待开启，1表示开启，0表示初始状态，-2表示等待关闭，-1表示关闭

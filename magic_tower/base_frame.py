@@ -15,47 +15,55 @@ Example:
 import time
 
 from configure import *
-from magic_tower.items import Stairs
 
 
-class Tower:
+class BattleMapSet:
     def __init__(self):
-        self.battle_maps = []
-        self.current_floor = 1
+        self.battle_maps = {}
+        self.current_map = None
         self.player = None
 
     def load_map(self, battle_map):
-        self.battle_maps.append(battle_map)
+        self.battle_maps[battle_map.name] = battle_map
         battle_map.tower = self
 
-    def load(self, player, load_type, floor=1):
+    def set_current_map(self, map_name):
+        self.current_map = self.battle_maps[map_name]
+
+    def load(self, player, map_name="初始之地"):
+        self.set_current_map(map_name)
         self.player = player
-        self.current_floor = floor
-        if load_type == 'up':
-            x = self.battle_maps[self.current_floor - 1].entrance[0]
-            y = self.battle_maps[self.current_floor - 1].entrance[1]
-        else:
-            x = self.battle_maps[self.current_floor - 1].exit[0]
-            y = self.battle_maps[self.current_floor - 1].exit[1]
-        player.locate(x, y)
-        player.battle_map = self.battle_maps[self.current_floor - 1]
+        entrance_coordinate = self.current_map.find_entrance("起始点")
+        player.locate(entrance_coordinate[0], entrance_coordinate[1])
+        player.battle_map = self.current_map
 
 
 class BattleMap:
-    def __init__(self):
+    def __init__(self, name):
         self.x_max = 16
         self.y_max = 16
         self.map = {}
         self.tower = None
-        self.entrance = (8, 16)
+        self.entrance = {(8, 16): "起始点"}
         self.exit = None
+        self.name = name
 
-    def load(self, something):
-        if isinstance(something, Stairs):
-            if something.name == 'down':
-                self.entrance = (something.x, something.y)
-            else:
-                self.exit = (something.x, something.y)
+    def read_item_config(self, item_config_dict, read_func):
+        self.name = item_config_dict['name']
+        item_list = read_func(item_config_dict['item_list'])
+        for items in item_list:
+            for item in items:
+                self._load(item)
+
+    def set_entrance(self, coordinate, map_name):
+        self.entrance[coordinate] = map_name
+
+    def find_entrance(self, map_name):
+        for key, value in self.entrance.items():
+            if value == map_name:
+                return key
+
+    def _load(self, something):
         if something.x < 1 or something.x > 16:
             raise ValueError('参数错误')
         if something.y < 1 or something.y > 16:
