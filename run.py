@@ -18,7 +18,7 @@ from pygame.constants import *
 
 from configure import *
 from magic_tower.base.base_view import BaseView, View
-from magic_tower.base.base_models import Controller
+from magic_tower.base.base_frame import Controller
 
 pygame.init()
 

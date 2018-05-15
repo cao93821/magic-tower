@@ -17,22 +17,22 @@ from magic_tower.models import *
 
 @controller.load("up")
 def move_up():
-    tower.player.move_up()
+    battle_map_set.player.move_up()
 
 
 @controller.load("down")
 def move_down():
-    tower.player.move_down()
+    battle_map_set.player.move_down()
 
 
 @controller.load("left")
 def move_left():
-    tower.player.move_left()
+    battle_map_set.player.move_left()
 
 
 @controller.load("right")
 def move_right():
-    tower.player.move_right()
+    battle_map_set.player.move_right()
 
 
 @controller.load("p")

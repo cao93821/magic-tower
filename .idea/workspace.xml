@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6fa171-a643-40a8-a590-84a8b2ed6b71" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/magic_tower/base/__init__.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/magic_tower/base/editor_utils.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/magic_tower/base/utils.py" />
@@ -17,6 +18,14 @@
       <change beforePath="$PROJECT_DIR$/magic_tower_project_old/magic_tower/modules.py" afterPath="$PROJECT_DIR$/magic_tower_project_old/magic_tower/modules.py" />
       <change beforePath="$PROJECT_DIR$/magic_tower_project_old/run.py" afterPath="$PROJECT_DIR$/magic_tower_project_old/run.py" />
       <change beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magic_tower/base_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/magic_tower/base_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magic_tower/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/magic_tower/controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magic_tower/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/magic_tower/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magic_tower/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/magic_tower/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tower_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tower_config.py" afterDir="false" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magic_tower/base/utils.py">
@@ -33,10 +43,22 @@
             <state relative-caret-position="165">
               <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/magic_tower/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#140#193#0" expanded="true" />
+              </folding>
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="base_models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magic_tower/base/base_models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,10 +67,18 @@
               <folding>
                 <element signature="e#139#150#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="tower_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tower_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,37 +86,80 @@
               <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
                 <element signature="e#139#149#0" expanded="true" />
+=======
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magic_tower/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-473" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_frame.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magic_tower/base_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="e#139#150#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magic_tower_project_old/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-969">
+              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="tower_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tower_config.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="base_widget.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magic_tower/base_widget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magic_tower/base/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/magic_tower/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#138#161#0" expanded="true" />
+              </folding>
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
@@ -94,8 +167,13 @@
       <file leaf-file-name="base_view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magic_tower/base/base_view.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="210">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+            <state relative-caret-position="92">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
               <folding>
                 <element signature="e#137#150#0" expanded="true" />
               </folding>
@@ -106,11 +184,16 @@
       <file leaf-file-name="editor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="506">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
             </state>
           </provider>
         </entry>
@@ -118,8 +201,13 @@
       <file leaf-file-name="configure.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configure.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="405">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+=======
+            <state relative-caret-position="471">
+              <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -127,6 +215,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="editor_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/magic_tower/base/editor_utils.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,6 +228,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -154,8 +245,14 @@
       <find>msg_center</find>
       <find>message_center.display</find>
       <find>battle_panel</find>
+<<<<<<< HEAD
       <find>to_display_map</find>
       <find>Mouse</find>
+=======
+      <find>魔塔第</find>
+      <find>current_floor - 1</find>
+      <find>ordinate</find>
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
     </findStrings>
     <replaceStrings>
       <replace>msg_center</replace>
@@ -163,6 +260,9 @@
       <replace>message_center.publish</replace>
       <replace>hand_book_panel</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\cl938\Desktop\magic_tower_project\magic_tower</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -182,6 +282,7 @@
         <option value="$PROJECT_DIR$/magic_tower_2/base_view.py" />
         <option value="$PROJECT_DIR$/magic_tower/controllers.py" />
         <option value="$PROJECT_DIR$/magic_tower/base_widget.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/magic_tower/base_models.py" />
         <option value="$PROJECT_DIR$/magic_tower/items.py" />
         <option value="$PROJECT_DIR$/magic_tower/models.py" />
@@ -191,6 +292,15 @@
         <option value="$PROJECT_DIR$/magic_tower/base/editor_utils.py" />
         <option value="$PROJECT_DIR$/editor.py" />
         <option value="$PROJECT_DIR$/run.py" />
+=======
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/magic_tower/items.py" />
+        <option value="$PROJECT_DIR$/magic_tower/base_models.py" />
+        <option value="$PROJECT_DIR$/magic_tower/views.py" />
+        <option value="$PROJECT_DIR$/magic_tower/base_frame.py" />
+        <option value="$PROJECT_DIR$/tower_config.py" />
+        <option value="$PROJECT_DIR$/magic_tower/models.py" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
       </list>
     </option>
   </component>
@@ -214,7 +324,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,8 +354,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+=======
+    <property name="last_opened_file_path" value="D:/Utils/cmder/vendor/git-for-windows/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -331,6 +449,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -348,6 +467,25 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296617" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858273" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -358,6 +496,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/magic_tower/base/base_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -406,42 +545,148 @@
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#137#150#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/magic_tower/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#140#193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="e#139#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/editor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding>
+            <element signature="e#137#150#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configure.py">
+    <entry file="file://$PROJECT_DIR$/magic_tower/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="405">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+=======
+        <state relative-caret-position="506">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#138#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/magic_tower/base/editor_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="e#145#160#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/magic_tower/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#138#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#140#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding>
+            <element signature="e#138#161#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1380">
           <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
@@ -471,13 +716,21 @@
           <folding>
             <element signature="e#139#149#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="437">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editor.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state>
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -493,8 +746,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configure.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="390">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+=======
+        <state relative-caret-position="1564">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -503,6 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/magic_tower/base/base_models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="675">
           <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding>
@@ -527,20 +786,44 @@
           <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
             <element signature="e#139#150#0" expanded="true" />
+=======
+        <state relative-caret-position="506">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#138#149#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/magic_tower/base_widget.py" />
     <entry file="file://$PROJECT_DIR$/magic_tower/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-87">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/magic_tower_2/modules.py" />
+    <entry file="file://$PROJECT_DIR$/magic_tower/base.py" />
+    <entry file="file://$PROJECT_DIR$/configure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magic_tower/views.py">
+    <entry file="file://$PROJECT_DIR$/magic_tower/modules.py" />
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
@@ -587,22 +870,70 @@
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#137#150#0" expanded="true" />
+=======
+        <state relative-caret-position="520">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/magic_tower/base/base_models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="270">
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#139#150#0" expanded="true" />
+=======
+        <state relative-caret-position="437">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower_project_old/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#137#150#0" expanded="true" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/magic_tower/base/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -621,16 +952,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+=======
+        <state relative-caret-position="471">
+          <caret line="36" column="72" lean-forward="true" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           <folding>
             <element signature="e#145#160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/editor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/magic_tower/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#138#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/base_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+>>>>>>> f4e0b0afc7c79d62150c13fdef670b7dcb30bed9
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -669,6 +1026,23 @@
           <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
             <element signature="e#139#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tower_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magic_tower/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#140#193#0" expanded="true" />
           </folding>
         </state>
       </provider>

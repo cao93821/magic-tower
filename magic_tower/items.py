@@ -15,7 +15,7 @@ import time
 import threading
 
 from configure import *
-from magic_tower.base.base_models import MessageCenter
+from magic_tower.base.base_frame import MessageCenter
 
 
 # 全局锁，在渲染时使用
