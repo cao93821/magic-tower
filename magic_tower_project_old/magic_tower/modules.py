@@ -1,5 +1,5 @@
 from configure import white, font_title, gray
-from magic_tower.util import is_in_rect
+from magic_tower.base.utils import is_in_rect
 import pygame
 import datetime
 

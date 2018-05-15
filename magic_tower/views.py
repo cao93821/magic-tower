@@ -13,8 +13,8 @@ Example:
 
 from configure import *
 from magic_tower.models import player, tower, message_controller
-from magic_tower.base_models import Player
-from magic_tower.util import to_real_coordinate
+from magic_tower.base.base_models import Player
+from magic_tower.base.utils import to_real_coordinate
 from magic_tower.items import render_lock, Monster
 
 

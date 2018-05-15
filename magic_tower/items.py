@@ -15,7 +15,7 @@ import time
 import threading
 
 from configure import *
-from magic_tower.base_widget import MessageCenter
+from magic_tower.base.base_models import MessageCenter
 
 
 # 全局锁，在渲染时使用
@@ -35,6 +35,32 @@ def init_map(map_dict):
     drugs = [Drug(*drug, item_number) for item_number, drug_set in map_dict['drugs'].items() for drug in drug_set]
     gems = [Gem(*gem, item_number) for item_number, gem_set in map_dict['gems'].items() for gem in gem_set]
     return [walls, doors, keys, stairss, weapons, monsters, drugs, gems]
+
+
+class BattleMap:
+    def __init__(self):
+        self.x_max = 16
+        self.y_max = 16
+        self.map = {}
+        self.tower = None
+        self.entrance = (8, 16)
+        self.exit = None
+
+    def load(self, something):
+        if isinstance(something, Stairs):
+            if something.name == 'down':
+                self.entrance = (something.x, something.y)
+            else:
+                self.exit = (something.x, something.y)
+        if something.x < 1 or something.x > 16:
+            raise ValueError('参数错误')
+        if something.y < 1 or something.y > 16:
+            raise ValueError('参数错误')
+        value = self.map.get((something.x, something.y))
+        if value is not None:
+            raise ValueError('这个位置已经有东西了')
+        self.map[(something.x, something.y)] = something
+        something.battle_map = self
 
 
 class Item:

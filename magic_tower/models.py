@@ -12,10 +12,9 @@ Example:
 """
 
 
-from magic_tower.base_widget import MessageController
 from tower_config import map1
-from magic_tower.base_models import Player, Tower, BattleMap
-from magic_tower.items import init_map, message_center
+from magic_tower.base.base_models import Player, Tower, MessageController
+from magic_tower.items import init_map, message_center, BattleMap
 
 
 # 装配model层

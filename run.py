@@ -17,8 +17,8 @@ from threading import Thread
 from pygame.constants import *
 
 from configure import *
-from magic_tower.base_view import BaseView, View
-from magic_tower.base_widget import Controller
+from magic_tower.base.base_view import BaseView, View
+from magic_tower.base.base_models import Controller
 
 pygame.init()
 

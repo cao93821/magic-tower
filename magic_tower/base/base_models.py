@@ -15,7 +15,6 @@ Example:
 import time
 
 from configure import *
-from magic_tower.items import Stairs
 
 
 class Tower:
@@ -41,30 +40,7 @@ class Tower:
         player.battle_map = self.battle_maps[self.current_floor - 1]
 
 
-class BattleMap:
-    def __init__(self):
-        self.x_max = 16
-        self.y_max = 16
-        self.map = {}
-        self.tower = None
-        self.entrance = (8, 16)
-        self.exit = None
 
-    def load(self, something):
-        if isinstance(something, Stairs):
-            if something.name == 'down':
-                self.entrance = (something.x, something.y)
-            else:
-                self.exit = (something.x, something.y)
-        if something.x < 1 or something.x > 16:
-            raise ValueError('参数错误')
-        if something.y < 1 or something.y > 16:
-            raise ValueError('参数错误')
-        value = self.map.get((something.x, something.y))
-        if value is not None:
-            raise ValueError('这个位置已经有东西了')
-        self.map[(something.x, something.y)] = something
-        something.battle_map = self
 
 
 class Player:
@@ -154,4 +130,57 @@ class Player:
                 self.image = self.images[2][i]
 
 
+from collections import deque
+
+
+# 控制器
+class Controller:
+
+    def __init__(self):
+        self.route_map = {}
+
+    def key_press(self, key):
+        self.route_map[key]()
+
+    def load(self, key):
+        def decorator(f):
+            self.route_map[key] = f
+            return f
+        return decorator
+
+
+# 消息中心
+class MessageCenter:
+
+    def __init__(self):
+        self.subscribe_list = []
+
+    def publish(self, message):
+        for subscriber in self.subscribe_list:
+            subscriber.notify(message)
+
+    def add_subscriber(self, subscriber):
+        """
+
+        :param subscriber: 订阅者需要实现notify方法
+        :return:
+        """
+        self.subscribe_list.append(subscriber)
+
+    def register(self, promulgator):
+        """
+
+        :param promulgator: 发布者
+        :return:
+        """
+        promulgator.message_center = self
+
+
+# 消息管理器
+class MessageController:
+    def __init__(self):
+        self.string_deque = deque(('game start',), 7)
+
+    def notify(self, string):
+        self.string_deque.append(string)
 
