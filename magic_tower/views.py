@@ -12,9 +12,10 @@ Example:
 """
 
 from configure import *
+
 from magic_tower.models import player, battle_map_set, message_controller
-from magic_tower.base_frame import Player
-from magic_tower.util import to_real_coordinate
+from magic_tower.base.base_frame import Player
+from magic_tower.base.utils import to_real_coordinate
 from magic_tower.items import render_lock, Monster
 
 

@@ -12,9 +12,9 @@ Example:
 """
 
 
-from magic_tower.base_widget import MessageController
+from magic_tower.base.base_frame import MessageController
 from tower_config import map1, map2
-from magic_tower.base_frame import Player, BattleMapSet, BattleMap
+from magic_tower.base.base_frame import Player, BattleMapSet, BattleMap
 from magic_tower.items import init_map, message_center
 
 

@@ -2,9 +2,9 @@ import sys
 
 from pygame.constants import *
 
-from magic_tower.base import Controller, BattleMap, Tower, Player
+from magic_tower.base import Controller, Tower, Player
 from magic_tower.items import *
-from magic_tower.util import to_real_coordinate
+from magic_tower.base.utils import to_real_coordinate
 from tower_config import map1
 
 

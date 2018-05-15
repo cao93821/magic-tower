@@ -3,9 +3,9 @@ import sys
 from pygame.constants import *
 
 from configure import *
-from magic_tower.util import to_real_coordinate
-from magic_tower.modules import View, Button, message_manager, Mouse, EditorItem
-from magic_tower.events import to_display_map, save_map, pop_load_panel
+from magic_tower.base.utils import to_real_coordinate
+from magic_tower.base.base_view import View, Button
+from magic_tower.base.editor_utils import message_manager, Mouse, EditorItem, to_display_map, save_map, pop_load_panel
 
 
 # 用于存储map数据，与configure中的格式一致，可以尝试一下使用default_dict
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
         # 绘制鼠标上的元素
         if mouse.is_on_mouse:
-            print(pygame.mouse.get_pos())
+            # print(pygame.mouse.get_pos())
             # 这个解包用得真pythonic
             screen.blit(mouse.item.image, (*pygame.mouse.get_pos(), 32, 32))
 
